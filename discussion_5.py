@@ -1,4 +1,4 @@
-import unittest
+import unittest 
 
 # Counts the number of a's in a sentence (e.g., a string)
 def count_a(sentence):
@@ -37,7 +37,11 @@ class Warehouse:
 			print("\n")	
 
 	# Adds an item to the warehouse	
-	def add_item(self, item):
+	def add_item(self, sentence):
+		#add 3 to 5 tests for the assignment 
+		#self.sentence = sentence 
+		#if sentence == 'apples and applesauce':
+			
 		pass
 
 	# Returns the item in the warehouse with the most stock		
@@ -63,6 +67,7 @@ class TestAllMethods(unittest.TestCase):
 
 	## Check to see whether count_a works
 	def test_count_a(self):
+		print()
 		pass
 
 
