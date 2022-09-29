@@ -1,6 +1,6 @@
 import unittest 
 
-# Counts the number of a's in a sentence (e.g., a string)
+# Counts the number of a's in a sentence (e.g., a string) ko
 def count_a(sentence):
 	total = 0
 	for i in range(len(sentence)):
